@@ -54,7 +54,7 @@ Graphite uses "schemas" to define the different round robin datasets it houses (
 
     [stats]
     priority = 110
-    pattern = ^stats\..*
+    pattern = ^stats_?\..*
     retentions = 10:2160,60:10080,600:262974
 
 That translates to:
